@@ -1,0 +1,14 @@
+{
+  "name": "personal-portfolio-database",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio website with Express API and SQLite database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}

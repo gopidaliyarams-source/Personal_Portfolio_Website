@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website of a student and aspiring web developer.">
+  <title>My Portfolio | Student Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">My<span>Portfolio.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+        <img src="profile-photo.jpg" alt="Profile photo" class="profile-photo">
+
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>I'm a <span>Student Developer</span></h1>
+        <p class="hero-text">I enjoy learning web development and building clean, useful, and creative digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Work</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>3+</strong><span>Learning Areas</span></div>
+          <div><strong>100%</strong><span>Curiosity</span></div>
+          <div><strong>∞</strong><span>Ideas to Build</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="glow"></div>
+        <div class="profile-card">
+          <div class="avatar">👨‍💻</div>
+          <p class="card-name">Future Developer</p>
+          <p class="card-role">Learn · Build · Improve</p>
+          <div class="code-line"><span>const</span> dream = "build";</div>
+          <div class="code-line"><span>while</span> (learning) {'{'} grow(); {'}'}</div>
+        </div>
+        <span class="floating-tag tag-html">HTML5</span>
+        <span class="floating-tag tag-css">CSS3</span>
+        <span class="floating-tag tag-js">JavaScript</span>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+        <div class="about-card">
+          <div class="about-icon">✨</div>
+          <div>
+            <h3>A little about my journey</h3>
+            <p>I am a student who is interested in technology, problem-solving, and website design. This portfolio is a small introduction to my learning journey. I want to keep improving my skills by practising, experimenting, and creating projects.</p>
+            <p class="note">Personalize this section with your name, college, branch, interests, and career goal before presenting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2>My <span>Skills</span></h2>
+      <p class="section-intro">A few technologies and abilities I am developing.</p>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon orange">&lt;/&gt;</div><h3>HTML5</h3><p>Building the structure and content of web pages.</p><div class="skill-track"><span style="width:85%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon blue">✦</div><h3>CSS3</h3><p>Designing layouts, colours, spacing, and responsive pages.</p><div class="skill-track"><span style="width:70%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon yellow">JS</div><h3>JavaScript</h3><p>Adding interactivity and dynamic behaviour to websites.</p><div class="skill-track"><span style="width:45%"></span></div></article>
+        <article class="skill-card"><div class="skill-icon green">♧</div><h3>Communication</h3><p>Explaining ideas, learning from feedback, and working with others.</p><div class="skill-track"><span style="width:75%"></span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <p class="eyebrow">SOME THINGS I'VE MADE</p>
+        <h2>My <span>Projects</span></h2>
+        <p class="section-intro">Sample project cards—replace these with projects you have actually created.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one"><span>🌐</span></div>
+            <div class="project-content"><p class="project-type">WEB DESIGN</p><h3>Personal Portfolio</h3><p>A responsive website introducing my skills, interests, and goals.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="mailto:gopidaliyarams@gmail.com?subject=Portfolio%20Project%20Enquiry" class="text-link">Discuss this project ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two"><span>🎓</span></div>
+            <div class="project-content"><p class="project-type">STUDENT TOOL</p><h3>Student Registration Page</h3><p>A sample form layout for collecting student information clearly.</p><div class="chips"><span>HTML Forms</span><span>CSS</span></div><a href="mailto:gopidaliyarams@gmail.com?subject=Portfolio%20Project%20Enquiry" class="text-link">Discuss this project ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three"><span>☕</span></div>
+            <div class="project-content"><p class="project-type">LANDING PAGE</p><h3>Café Website</h3><p>A colourful sample landing page with menu highlights and contact details.</p><div class="chips"><span>HTML</span><span>CSS</span></div><a href="mailto:gopidaliyarams@gmail.com?subject=Portfolio%20Project%20Enquiry" class="text-link">Discuss this project ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+<div class="contact-interaction">
+  <h3>Send a Message</h3>
+  <form id="contact-form">
+    <label for="contact-name">Your name</label>
+    <input id="contact-name" name="name" type="text" maxlength="100" placeholder="Enter your name" required>
+    <label for="contact-email">Your email</label>
+    <input id="contact-email" name="email" type="email" maxlength="254" placeholder="you@example.com" required>
+    <label for="contact-message">Message</label>
+    <textarea id="contact-message" name="message" rows="4" maxlength="5000" placeholder="Write your message..." required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="contact-feedback" role="status" aria-live="polite"></p>
+  </form>
+</div>
+
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact <span>Me</span></h2>
+      <div class="contact-card">
+        <div><h3>Have an idea or a question?</h3><p>Use this demo form to practise form validation. It does not send messages to a server.</p><p class="contact-detail">✉️ gopidaliyarams@gmail.com</p><p class="contact-detail">📍 Khammam</p></div>
+        <form id="contactForm">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write a message..." required></textarea>
+          <button class="button primary" type="submit">Send Message</button>
+          <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#home">My<span>Portfolio.</span></a><p>Designed and built with HTML, CSS & JavaScript.</p><p>© <span id="year"></span> My Portfolio</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
